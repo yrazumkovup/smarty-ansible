@@ -16,7 +16,7 @@
   run_once: true
 
 - name: Deploy stack from a compose file
-  docker_compose:
+  community.docker.docker_compose:
     project_src: "{{ smarty_compose_filename | dirname}}"
     state: present
     pull: yes

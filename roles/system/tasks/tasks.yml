@@ -26,11 +26,26 @@
     repo: deb https://download.docker.com/linux/ubuntu bionic stable
     state: present
 
+- name: Docker SDK for Python
+  pip:
+    name: "{{ packages }}"
+    state: present
+  vars:
+    packages:
+      - docker
+      - docker-compose
+
 - name: Update apt and install docker-ce
   apt:
     name: docker-ce
     update_cache: yes
     state: latest
+
+- name: Install docker-compose
+  get_url:
+    url : https://github.com/docker/compose/releases/download/1.25.1-rc1/docker-compose-Linux-x86_64
+    dest: /usr/local/bin/docker-compose
+    mode: 'u+x,g+x'
 
 - name: Set up root's authorized keys
   authorized_key:

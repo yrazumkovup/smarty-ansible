@@ -1,0 +1,3 @@
+dnsmasq:
+  app_name: dnsmasq
+  image: gdrg/dnsmasq:1.0.0
