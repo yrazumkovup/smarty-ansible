@@ -25,6 +25,8 @@ services:
     volumes:
       - /lib/modules:/lib/modules:ro
       - {{ certbot.cert_path }}/live/{{ domain_name }}/:/etc/ipsec.d/certs/:ro
+    depends_on:
+      - {{ certbot.app_name }}
 
   {{ certbot.app_name }}:
     image: {{ certbot.image }}
@@ -57,6 +59,8 @@ services:
       USERNAME:        "{{ softethervpn.username        }}"
       PASSWORD:        "{{ softethervpn.password        }}"
       SERVER_PWD:      "{{ softethervpn.server_pwd      }}"
+    depends_on:
+      - {{ certbot.app_name }}
 
   #zabbix-agent:
   #  image: zabbix/zabbix-agent
