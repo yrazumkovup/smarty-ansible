@@ -1,0 +1,4 @@
+certbot:
+  app_name: certbot
+  image: certbot/certbot
+  cert_path: /root/certs/conf

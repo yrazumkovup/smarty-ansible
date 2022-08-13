@@ -1,0 +1,3 @@
+squid:
+  app_name: squid
+  image: gdrg/squid:1.0.0

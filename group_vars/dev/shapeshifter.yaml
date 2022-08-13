@@ -1,0 +1,3 @@
+shapeshifter:
+  app_name: shapeshifter-dispatcher
+  image: gdrg/shapeshifter:1.0.0

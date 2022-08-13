@@ -1,2 +1,2 @@
-all:
-  project_dir: /root/smartydocker
+project_dir: /root/smartydocker
+domain_name: deployer-test.smartydns.com

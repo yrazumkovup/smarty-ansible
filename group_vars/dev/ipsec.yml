@@ -1,0 +1,3 @@
+ipsec:
+  app_name: ipsec
+  image: gdrg/ipsec:1.0.0

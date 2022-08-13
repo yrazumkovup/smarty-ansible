@@ -1,7 +1,13 @@
 ---
 - name: Register facts for the futher steps
   set_fact:
-    smarty_compose_filename: "{{ all.project_dir }}/docker-compose.yml"
+    smarty_compose_filename: "{{ project_dir }}/docker-compose.yml"
+
+- name: Create certbot volume
+  file:
+    path: "{{ certbot.cert_path }}"
+    state: directory
+  run_once: true
 
 - name: Create docker-compose directory
   file:

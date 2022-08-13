@@ -1,0 +1,3 @@
+pptpd:
+  app_name: pptpd
+  image: gdrg/pptpd:1.0.0

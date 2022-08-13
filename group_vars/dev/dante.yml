@@ -1,0 +1,3 @@
+dante:
+  app_name: dante
+  image: gdrg/dante:1.0.0
