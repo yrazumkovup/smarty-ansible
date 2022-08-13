@@ -1,0 +1,6 @@
+---
+- name: Log into Gitlab docker registry by root user
+  docker_login:
+    registry: "{{ docker_registry.uri }}"
+    username: "{{ docker_registry.user }}"
+    password: "{{ docker_registry.password }}"

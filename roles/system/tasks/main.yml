@@ -1,0 +1,6 @@
+---
+- name: This role contains common plays that will run on all nodes.
+  include: tasks.yml
+  tags: [ system ]
+  become: yes
+  become_user: root

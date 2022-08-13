@@ -1,0 +1,5 @@
+---
+- name: This role contains platform plays that will run on applications nodes.
+  include: tasks.yml
+  tags: [ platform ]
+  become: yes

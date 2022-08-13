@@ -1,0 +1,5 @@
+---
+- name: This role contains docker registry plays that will run on compute nodes.
+  include: tasks.yml
+  tags: [ registry ]
+  become: yes

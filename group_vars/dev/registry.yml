@@ -1,0 +1,5 @@
+# Docker registry
+docker_registry:
+  uri: https://index.docker.io
+  user: yrazumkovup
+  password: dckr_pat_OfUPcKtBEUCbxXSHVqGYXysdVF0

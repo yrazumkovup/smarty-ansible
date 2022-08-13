@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  {{ softethervpn.app_name }}:
+    image: {{ softethervpn.image }}
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+    environment:
+      L2TP_ENABLED:    "{{ softethervpn.l2tp_enabled    }}"
+      OPENVPN_ENABLED: "{{ softethervpn.openvpn_enabled }}"
+      SSTP_ENABLED:    "{{ softethervpn.sstp_enabled    }}"
+      PSK:             "{{ softethervpn.psk             }}"
+      USERNAME:        "{{ softethervpn.username        }}"
+      PASSWORD:        "{{ softethervpn.password        }}"
+      SERVER_PWD:      "{{ softethervpn.server_pwd      }}"

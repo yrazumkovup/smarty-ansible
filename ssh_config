@@ -1,0 +1,10 @@
+Host *
+  ConnectTimeout 10
+  IdentityFile ~/.ssh/smarty
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+  User root
+
+#Telemed demo servers
+Host do-dev-0
+  Hostname 138.68.106.79

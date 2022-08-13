@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - { role: system   }
+    - { role: registry }
+    - { role: platform }

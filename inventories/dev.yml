@@ -1,0 +1,6 @@
+dev:
+  hosts:
+    do-dev-0:
+      ansible_port: 22
+      ansible_host: 159.89.106.235
+      ansible_ssh_user: root

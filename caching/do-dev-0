@@ -1,0 +1,931 @@
+_ansible_facts_gathered: true
+ansible_all_ipv4_addresses:
+- 10.114.0.4
+- 172.17.0.1
+- 159.89.106.235
+- 10.19.0.7
+ansible_all_ipv6_addresses:
+- fe80::8479:bff:fed6:f6bb
+- fe80::42:bff:fe1f:fc48
+- fe80::c482:63ff:fedf:bc66
+ansible_apparmor:
+  status: enabled
+ansible_architecture: x86_64
+ansible_bios_date: 12/12/2017
+ansible_bios_vendor: DigitalOcean
+ansible_bios_version: '20171212'
+ansible_board_asset_tag: '312096499'
+ansible_board_name: Droplet
+ansible_board_serial: '312096499'
+ansible_board_vendor: DigitalOcean
+ansible_board_version: '20171212'
+ansible_chassis_asset_tag: NA
+ansible_chassis_serial: NA
+ansible_chassis_vendor: QEMU
+ansible_chassis_version: pc-i440fx-6.0
+ansible_cmdline:
+  BOOT_IMAGE: /boot/vmlinuz-5.15.0-41-generic
+  biosdevname: '0'
+  console: ttyS0
+  net.ifnames: '0'
+  ro: true
+  root: UUID=136735fa-5cc1-470f-9359-ee736e42f844
+ansible_date_time:
+  date: '2022-08-13'
+  day: '13'
+  epoch: '1660369987'
+  hour: '05'
+  iso8601: '2022-08-13T05:53:07Z'
+  iso8601_basic: 20220813T055307012566
+  iso8601_basic_short: 20220813T055307
+  iso8601_micro: '2022-08-13T05:53:07.012566Z'
+  minute: '53'
+  month: 08
+  second: '07'
+  time: 05:53:07
+  tz: UTC
+  tz_dst: UTC
+  tz_offset: '+0000'
+  weekday: Saturday
+  weekday_number: '6'
+  weeknumber: '32'
+  year: '2022'
+ansible_default_ipv4:
+  address: 159.89.106.235
+  alias: eth0
+  broadcast: 159.89.111.255
+  gateway: 159.89.96.1
+  interface: eth0
+  macaddress: c6:82:63:df:bc:66
+  mtu: 1500
+  netmask: 255.255.240.0
+  network: 159.89.96.0
+  type: ether
+ansible_default_ipv6: {}
+ansible_device_links:
+  ids: {}
+  labels:
+    vda1:
+    - cloudimg-rootfs
+    vda15:
+    - UEFI
+    vdb:
+    - config-2
+  masters: {}
+  uuids:
+    vda1:
+    - 136735fa-5cc1-470f-9359-ee736e42f844
+    vda15:
+    - 168D-B0CB
+    vdb:
+    - 2022-08-10-19-45-19-00
+ansible_devices:
+  loop0:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: none
+    sectors: '126824'
+    sectorsize: '512'
+    size: 61.93 MB
+    support_discard: '4096'
+    vendor: null
+    virtual: 1
+  loop1:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: none
+    sectors: '163736'
+    sectorsize: '512'
+    size: 79.95 MB
+    support_discard: '4096'
+    vendor: null
+    virtual: 1
+  loop2:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: none
+    sectors: '96176'
+    sectorsize: '512'
+    size: 46.96 MB
+    support_discard: '4096'
+    vendor: null
+    virtual: 1
+  loop3:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: none
+    sectors: '126896'
+    sectorsize: '512'
+    size: 61.96 MB
+    support_discard: '4096'
+    vendor: null
+    virtual: 1
+  loop4:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: none
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '4096'
+    vendor: null
+    virtual: 1
+  loop5:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: none
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  loop6:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: none
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  loop7:
+    holders: []
+    host: ''
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: none
+    sectors: '0'
+    sectorsize: '512'
+    size: 0.00 Bytes
+    support_discard: '0'
+    vendor: null
+    virtual: 1
+  vda:
+    holders: []
+    host: 'SCSI storage controller: Red Hat, Inc. Virtio block device'
+    links:
+      ids: []
+      labels: []
+      masters: []
+      uuids: []
+    model: null
+    partitions:
+      vda1:
+        holders: []
+        links:
+          ids: []
+          labels:
+          - cloudimg-rootfs
+          masters: []
+          uuids:
+          - 136735fa-5cc1-470f-9359-ee736e42f844
+        sectors: '52201439'
+        sectorsize: 512
+        size: 24.89 GB
+        start: '227328'
+        uuid: 136735fa-5cc1-470f-9359-ee736e42f844
+      vda14:
+        holders: []
+        links:
+          ids: []
+          labels: []
+          masters: []
+          uuids: []
+        sectors: '8192'
+        sectorsize: 512
+        size: 4.00 MB
+        start: '2048'
+        uuid: null
+      vda15:
+        holders: []
+        links:
+          ids: []
+          labels:
+          - UEFI
+          masters: []
+          uuids:
+          - 168D-B0CB
+        sectors: '217088'
+        sectorsize: 512
+        size: 106.00 MB
+        start: '10240'
+        uuid: 168D-B0CB
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '52428800'
+    sectorsize: '512'
+    size: 25.00 GB
+    support_discard: '512'
+    vendor: '0x1af4'
+    virtual: 1
+  vdb:
+    holders: []
+    host: 'SCSI storage controller: Red Hat, Inc. Virtio block device'
+    links:
+      ids: []
+      labels:
+      - config-2
+      masters: []
+      uuids:
+      - 2022-08-10-19-45-19-00
+    model: null
+    partitions: {}
+    removable: '0'
+    rotational: '1'
+    sas_address: null
+    sas_device_handle: null
+    scheduler_mode: mq-deadline
+    sectors: '932'
+    sectorsize: '512'
+    size: 466.00 KB
+    support_discard: '512'
+    vendor: '0x1af4'
+    virtual: 1
+ansible_distribution: Ubuntu
+ansible_distribution_file_parsed: true
+ansible_distribution_file_path: /etc/os-release
+ansible_distribution_file_variety: Debian
+ansible_distribution_major_version: '22'
+ansible_distribution_release: jammy
+ansible_distribution_version: '22.04'
+ansible_dns:
+  nameservers:
+  - 127.0.0.53
+  options:
+    edns0: true
+    trust-ad: true
+  search:
+  - .
+ansible_docker0:
+  active: false
+  device: docker0
+  features:
+    esp_hw_offload: off [fixed]
+    esp_tx_csum_hw_offload: off [fixed]
+    fcoe_mtu: off [fixed]
+    generic_receive_offload: 'on'
+    generic_segmentation_offload: 'on'
+    highdma: 'on'
+    hsr_dup_offload: off [fixed]
+    hsr_fwd_offload: off [fixed]
+    hsr_tag_ins_offload: off [fixed]
+    hsr_tag_rm_offload: off [fixed]
+    hw_tc_offload: off [fixed]
+    l2_fwd_offload: off [fixed]
+    large_receive_offload: off [fixed]
+    loopback: off [fixed]
+    macsec_hw_offload: off [fixed]
+    netns_local: on [fixed]
+    ntuple_filters: off [fixed]
+    receive_hashing: off [fixed]
+    rx_all: off [fixed]
+    rx_checksumming: off [fixed]
+    rx_fcs: off [fixed]
+    rx_gro_hw: off [fixed]
+    rx_gro_list: 'off'
+    rx_udp_gro_forwarding: 'off'
+    rx_udp_tunnel_port_offload: off [fixed]
+    rx_vlan_filter: off [fixed]
+    rx_vlan_offload: off [fixed]
+    rx_vlan_stag_filter: off [fixed]
+    rx_vlan_stag_hw_parse: off [fixed]
+    scatter_gather: 'on'
+    tcp_segmentation_offload: 'on'
+    tls_hw_record: off [fixed]
+    tls_hw_rx_offload: off [fixed]
+    tls_hw_tx_offload: off [fixed]
+    tx_checksum_fcoe_crc: off [fixed]
+    tx_checksum_ip_generic: 'on'
+    tx_checksum_ipv4: off [fixed]
+    tx_checksum_ipv6: off [fixed]
+    tx_checksum_sctp: off [fixed]
+    tx_checksumming: 'on'
+    tx_esp_segmentation: 'on'
+    tx_fcoe_segmentation: 'on'
+    tx_gre_csum_segmentation: 'on'
+    tx_gre_segmentation: 'on'
+    tx_gso_list: 'on'
+    tx_gso_partial: 'on'
+    tx_gso_robust: 'on'
+    tx_ipxip4_segmentation: 'on'
+    tx_ipxip6_segmentation: 'on'
+    tx_lockless: on [fixed]
+    tx_nocache_copy: 'off'
+    tx_scatter_gather: 'on'
+    tx_scatter_gather_fraglist: 'on'
+    tx_sctp_segmentation: 'on'
+    tx_tcp6_segmentation: 'on'
+    tx_tcp_ecn_segmentation: 'on'
+    tx_tcp_mangleid_segmentation: 'on'
+    tx_tcp_segmentation: 'on'
+    tx_tunnel_remcsum_segmentation: 'on'
+    tx_udp_segmentation: 'on'
+    tx_udp_tnl_csum_segmentation: 'on'
+    tx_udp_tnl_segmentation: 'on'
+    tx_vlan_offload: 'on'
+    tx_vlan_stag_hw_insert: 'on'
+    vlan_challenged: off [fixed]
+  hw_timestamp_filters: []
+  id: 8000.02420b1ffc48
+  interfaces: []
+  ipv4:
+    address: 172.17.0.1
+    broadcast: 172.17.255.255
+    netmask: 255.255.0.0
+    network: 172.17.0.0
+  ipv6:
+  - address: fe80::42:bff:fe1f:fc48
+    prefix: '64'
+    scope: link
+  macaddress: 02:42:0b:1f:fc:48
+  mtu: 1500
+  promisc: true
+  speed: -1
+  stp: false
+  timestamping: []
+  type: bridge
+ansible_domain: ''
+ansible_effective_group_id: 0
+ansible_effective_user_id: 0
+ansible_env:
+  DBUS_SESSION_BUS_ADDRESS: unix:path=/run/user/0/bus
+  HOME: /root
+  LANG: C.UTF-8
+  LOGNAME: root
+  MOTD_SHOWN: pam
+  PATH: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+  PWD: /root
+  SHELL: /bin/bash
+  SHLVL: '0'
+  SSH_CLIENT: 85.26.233.150 38614 22
+  SSH_CONNECTION: 85.26.233.150 38614 159.89.106.235 22
+  SSH_TTY: /dev/pts/0
+  TERM: xterm-256color
+  USER: root
+  XDG_RUNTIME_DIR: /run/user/0
+  XDG_SESSION_CLASS: user
+  XDG_SESSION_ID: '107'
+  XDG_SESSION_TYPE: tty
+  _: /bin/sh
+ansible_eth0:
+  active: true
+  device: eth0
+  features:
+    esp_hw_offload: off [fixed]
+    esp_tx_csum_hw_offload: off [fixed]
+    fcoe_mtu: off [fixed]
+    generic_receive_offload: 'on'
+    generic_segmentation_offload: 'on'
+    highdma: on [fixed]
+    hsr_dup_offload: off [fixed]
+    hsr_fwd_offload: off [fixed]
+    hsr_tag_ins_offload: off [fixed]
+    hsr_tag_rm_offload: off [fixed]
+    hw_tc_offload: off [fixed]
+    l2_fwd_offload: off [fixed]
+    large_receive_offload: off [fixed]
+    loopback: off [fixed]
+    macsec_hw_offload: off [fixed]
+    netns_local: off [fixed]
+    ntuple_filters: off [fixed]
+    receive_hashing: off [fixed]
+    rx_all: off [fixed]
+    rx_checksumming: on [fixed]
+    rx_fcs: off [fixed]
+    rx_gro_hw: 'on'
+    rx_gro_list: 'off'
+    rx_udp_gro_forwarding: 'off'
+    rx_udp_tunnel_port_offload: off [fixed]
+    rx_vlan_filter: on [fixed]
+    rx_vlan_offload: off [fixed]
+    rx_vlan_stag_filter: off [fixed]
+    rx_vlan_stag_hw_parse: off [fixed]
+    scatter_gather: 'on'
+    tcp_segmentation_offload: 'on'
+    tls_hw_record: off [fixed]
+    tls_hw_rx_offload: off [fixed]
+    tls_hw_tx_offload: off [fixed]
+    tx_checksum_fcoe_crc: off [fixed]
+    tx_checksum_ip_generic: 'on'
+    tx_checksum_ipv4: off [fixed]
+    tx_checksum_ipv6: off [fixed]
+    tx_checksum_sctp: off [fixed]
+    tx_checksumming: 'on'
+    tx_esp_segmentation: off [fixed]
+    tx_fcoe_segmentation: off [fixed]
+    tx_gre_csum_segmentation: off [fixed]
+    tx_gre_segmentation: off [fixed]
+    tx_gso_list: off [fixed]
+    tx_gso_partial: off [fixed]
+    tx_gso_robust: on [fixed]
+    tx_ipxip4_segmentation: off [fixed]
+    tx_ipxip6_segmentation: off [fixed]
+    tx_lockless: off [fixed]
+    tx_nocache_copy: 'off'
+    tx_scatter_gather: 'on'
+    tx_scatter_gather_fraglist: off [fixed]
+    tx_sctp_segmentation: off [fixed]
+    tx_tcp6_segmentation: 'on'
+    tx_tcp_ecn_segmentation: 'on'
+    tx_tcp_mangleid_segmentation: 'off'
+    tx_tcp_segmentation: 'on'
+    tx_tunnel_remcsum_segmentation: off [fixed]
+    tx_udp_segmentation: off [fixed]
+    tx_udp_tnl_csum_segmentation: off [fixed]
+    tx_udp_tnl_segmentation: off [fixed]
+    tx_vlan_offload: off [fixed]
+    tx_vlan_stag_hw_insert: off [fixed]
+    vlan_challenged: off [fixed]
+  hw_timestamp_filters: []
+  ipv4:
+    address: 159.89.106.235
+    broadcast: 159.89.111.255
+    netmask: 255.255.240.0
+    network: 159.89.96.0
+  ipv4_secondaries:
+  - address: 10.19.0.7
+    broadcast: 10.19.255.255
+    netmask: 255.255.0.0
+    network: 10.19.0.0
+  ipv6:
+  - address: fe80::c482:63ff:fedf:bc66
+    prefix: '64'
+    scope: link
+  macaddress: c6:82:63:df:bc:66
+  module: virtio_net
+  mtu: 1500
+  pciid: virtio0
+  promisc: true
+  speed: -1
+  timestamping: []
+  type: ether
+ansible_eth1:
+  active: true
+  device: eth1
+  features:
+    esp_hw_offload: off [fixed]
+    esp_tx_csum_hw_offload: off [fixed]
+    fcoe_mtu: off [fixed]
+    generic_receive_offload: 'on'
+    generic_segmentation_offload: 'on'
+    highdma: on [fixed]
+    hsr_dup_offload: off [fixed]
+    hsr_fwd_offload: off [fixed]
+    hsr_tag_ins_offload: off [fixed]
+    hsr_tag_rm_offload: off [fixed]
+    hw_tc_offload: off [fixed]
+    l2_fwd_offload: off [fixed]
+    large_receive_offload: off [fixed]
+    loopback: off [fixed]
+    macsec_hw_offload: off [fixed]
+    netns_local: off [fixed]
+    ntuple_filters: off [fixed]
+    receive_hashing: off [fixed]
+    rx_all: off [fixed]
+    rx_checksumming: on [fixed]
+    rx_fcs: off [fixed]
+    rx_gro_hw: 'on'
+    rx_gro_list: 'off'
+    rx_udp_gro_forwarding: 'off'
+    rx_udp_tunnel_port_offload: off [fixed]
+    rx_vlan_filter: on [fixed]
+    rx_vlan_offload: off [fixed]
+    rx_vlan_stag_filter: off [fixed]
+    rx_vlan_stag_hw_parse: off [fixed]
+    scatter_gather: 'on'
+    tcp_segmentation_offload: 'on'
+    tls_hw_record: off [fixed]
+    tls_hw_rx_offload: off [fixed]
+    tls_hw_tx_offload: off [fixed]
+    tx_checksum_fcoe_crc: off [fixed]
+    tx_checksum_ip_generic: 'on'
+    tx_checksum_ipv4: off [fixed]
+    tx_checksum_ipv6: off [fixed]
+    tx_checksum_sctp: off [fixed]
+    tx_checksumming: 'on'
+    tx_esp_segmentation: off [fixed]
+    tx_fcoe_segmentation: off [fixed]
+    tx_gre_csum_segmentation: off [fixed]
+    tx_gre_segmentation: off [fixed]
+    tx_gso_list: off [fixed]
+    tx_gso_partial: off [fixed]
+    tx_gso_robust: on [fixed]
+    tx_ipxip4_segmentation: off [fixed]
+    tx_ipxip6_segmentation: off [fixed]
+    tx_lockless: off [fixed]
+    tx_nocache_copy: 'off'
+    tx_scatter_gather: 'on'
+    tx_scatter_gather_fraglist: off [fixed]
+    tx_sctp_segmentation: off [fixed]
+    tx_tcp6_segmentation: 'on'
+    tx_tcp_ecn_segmentation: 'on'
+    tx_tcp_mangleid_segmentation: 'off'
+    tx_tcp_segmentation: 'on'
+    tx_tunnel_remcsum_segmentation: off [fixed]
+    tx_udp_segmentation: off [fixed]
+    tx_udp_tnl_csum_segmentation: off [fixed]
+    tx_udp_tnl_segmentation: off [fixed]
+    tx_vlan_offload: off [fixed]
+    tx_vlan_stag_hw_insert: off [fixed]
+    vlan_challenged: off [fixed]
+  hw_timestamp_filters: []
+  ipv4:
+    address: 10.114.0.4
+    broadcast: 10.114.15.255
+    netmask: 255.255.240.0
+    network: 10.114.0.0
+  ipv6:
+  - address: fe80::8479:bff:fed6:f6bb
+    prefix: '64'
+    scope: link
+  macaddress: 86:79:0b:d6:f6:bb
+  module: virtio_net
+  mtu: 1500
+  pciid: virtio1
+  promisc: true
+  speed: -1
+  timestamping: []
+  type: ether
+ansible_fibre_channel_wwn: []
+ansible_fips: false
+ansible_form_factor: Other
+ansible_fqdn: do-dev-0
+ansible_hostname: do-dev-0
+ansible_hostnqn: ''
+ansible_interfaces:
+- eth0
+- eth1
+- docker0
+- lo
+ansible_is_chroot: false
+ansible_iscsi_iqn: ''
+ansible_kernel: 5.15.0-41-generic
+ansible_kernel_version: '#44-Ubuntu SMP Wed Jun 22 14:20:53 UTC 2022'
+ansible_lo:
+  active: true
+  device: lo
+  features:
+    esp_hw_offload: off [fixed]
+    esp_tx_csum_hw_offload: off [fixed]
+    fcoe_mtu: off [fixed]
+    generic_receive_offload: 'on'
+    generic_segmentation_offload: 'on'
+    highdma: on [fixed]
+    hsr_dup_offload: off [fixed]
+    hsr_fwd_offload: off [fixed]
+    hsr_tag_ins_offload: off [fixed]
+    hsr_tag_rm_offload: off [fixed]
+    hw_tc_offload: off [fixed]
+    l2_fwd_offload: off [fixed]
+    large_receive_offload: off [fixed]
+    loopback: on [fixed]
+    macsec_hw_offload: off [fixed]
+    netns_local: on [fixed]
+    ntuple_filters: off [fixed]
+    receive_hashing: off [fixed]
+    rx_all: off [fixed]
+    rx_checksumming: on [fixed]
+    rx_fcs: off [fixed]
+    rx_gro_hw: off [fixed]
+    rx_gro_list: 'off'
+    rx_udp_gro_forwarding: 'off'
+    rx_udp_tunnel_port_offload: off [fixed]
+    rx_vlan_filter: off [fixed]
+    rx_vlan_offload: off [fixed]
+    rx_vlan_stag_filter: off [fixed]
+    rx_vlan_stag_hw_parse: off [fixed]
+    scatter_gather: 'on'
+    tcp_segmentation_offload: 'on'
+    tls_hw_record: off [fixed]
+    tls_hw_rx_offload: off [fixed]
+    tls_hw_tx_offload: off [fixed]
+    tx_checksum_fcoe_crc: off [fixed]
+    tx_checksum_ip_generic: on [fixed]
+    tx_checksum_ipv4: off [fixed]
+    tx_checksum_ipv6: off [fixed]
+    tx_checksum_sctp: on [fixed]
+    tx_checksumming: 'on'
+    tx_esp_segmentation: off [fixed]
+    tx_fcoe_segmentation: off [fixed]
+    tx_gre_csum_segmentation: off [fixed]
+    tx_gre_segmentation: off [fixed]
+    tx_gso_list: 'on'
+    tx_gso_partial: off [fixed]
+    tx_gso_robust: off [fixed]
+    tx_ipxip4_segmentation: off [fixed]
+    tx_ipxip6_segmentation: off [fixed]
+    tx_lockless: on [fixed]
+    tx_nocache_copy: off [fixed]
+    tx_scatter_gather: on [fixed]
+    tx_scatter_gather_fraglist: on [fixed]
+    tx_sctp_segmentation: 'on'
+    tx_tcp6_segmentation: 'on'
+    tx_tcp_ecn_segmentation: 'on'
+    tx_tcp_mangleid_segmentation: 'on'
+    tx_tcp_segmentation: 'on'
+    tx_tunnel_remcsum_segmentation: off [fixed]
+    tx_udp_segmentation: 'on'
+    tx_udp_tnl_csum_segmentation: off [fixed]
+    tx_udp_tnl_segmentation: off [fixed]
+    tx_vlan_offload: off [fixed]
+    tx_vlan_stag_hw_insert: off [fixed]
+    vlan_challenged: on [fixed]
+  hw_timestamp_filters: []
+  ipv4:
+    address: 127.0.0.1
+    broadcast: ''
+    netmask: 255.0.0.0
+    network: 127.0.0.0
+  ipv6:
+  - address: ::1
+    prefix: '128'
+    scope: host
+  mtu: 65536
+  promisc: false
+  timestamping: []
+  type: loopback
+ansible_local: {}
+ansible_lsb:
+  codename: jammy
+  description: Ubuntu 22.04 LTS
+  id: Ubuntu
+  major_release: '22'
+  release: '22.04'
+ansible_lvm:
+  lvs: {}
+  pvs: {}
+  vgs: {}
+ansible_machine: x86_64
+ansible_machine_id: 628400985dfcc95b2c1d45bc62f40b20
+ansible_memfree_mb: 105
+ansible_memory_mb:
+  nocache:
+    free: 634
+    used: 337
+  real:
+    free: 105
+    total: 971
+    used: 866
+  swap:
+    cached: 0
+    free: 0
+    total: 0
+    used: 0
+ansible_memtotal_mb: 971
+ansible_mounts:
+- block_available: 5294839
+  block_size: 4096
+  block_total: 6303968
+  block_used: 1009129
+  device: /dev/vda1
+  fstype: ext4
+  inode_available: 3090282
+  inode_total: 3225600
+  inode_used: 135318
+  mount: /
+  options: rw,relatime,discard,errors=remount-ro
+  size_available: 21687660544
+  size_total: 25821052928
+  uuid: 136735fa-5cc1-470f-9359-ee736e42f844
+- block_available: 0
+  block_size: 131072
+  block_total: 496
+  block_used: 496
+  device: /dev/loop0
+  fstype: squashfs
+  inode_available: 0
+  inode_total: 11789
+  inode_used: 11789
+  mount: /snap/core20/1518
+  options: ro,nodev,relatime,errors=continue
+  size_available: 0
+  size_total: 65011712
+  uuid: N/A
+- block_available: 0
+  block_size: 131072
+  block_total: 640
+  block_used: 640
+  device: /dev/loop1
+  fstype: squashfs
+  inode_available: 0
+  inode_total: 816
+  inode_used: 816
+  mount: /snap/lxd/22923
+  options: ro,nodev,relatime,errors=continue
+  size_available: 0
+  size_total: 83886080
+  uuid: N/A
+- block_available: 0
+  block_size: 131072
+  block_total: 376
+  block_used: 376
+  device: /dev/loop2
+  fstype: squashfs
+  inode_available: 0
+  inode_total: 486
+  inode_used: 486
+  mount: /snap/snapd/16292
+  options: ro,nodev,relatime,errors=continue
+  size_available: 0
+  size_total: 49283072
+  uuid: N/A
+- block_available: 203058
+  block_size: 512
+  block_total: 213716
+  block_used: 10658
+  device: /dev/vda15
+  fstype: vfat
+  inode_available: 0
+  inode_total: 0
+  inode_used: 0
+  mount: /boot/efi
+  options: rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro
+  size_available: 103965696
+  size_total: 109422592
+  uuid: 168D-B0CB
+- block_available: 0
+  block_size: 131072
+  block_total: 496
+  block_used: 496
+  device: /dev/loop3
+  fstype: squashfs
+  inode_available: 0
+  inode_total: 11793
+  inode_used: 11793
+  mount: /snap/core20/1587
+  options: ro,nodev,relatime,errors=continue
+  size_available: 0
+  size_total: 65011712
+  uuid: N/A
+ansible_nodename: do-dev-0
+ansible_os_family: Debian
+ansible_pkg_mgr: apt
+ansible_proc_cmdline:
+  BOOT_IMAGE: /boot/vmlinuz-5.15.0-41-generic
+  biosdevname: '0'
+  console:
+  - tty1
+  - ttyS0
+  net.ifnames: '0'
+  ro: true
+  root: UUID=136735fa-5cc1-470f-9359-ee736e42f844
+ansible_processor:
+- '0'
+- GenuineIntel
+- DO-Regular
+ansible_processor_cores: 1
+ansible_processor_count: 1
+ansible_processor_nproc: 1
+ansible_processor_threads_per_core: 1
+ansible_processor_vcpus: 1
+ansible_product_name: Droplet
+ansible_product_serial: '312096499'
+ansible_product_uuid: d2fbe6f1-acc7-4d12-81ad-bdd0c0c1eece
+ansible_product_version: '20171212'
+ansible_python:
+  executable: /usr/bin/python3
+  has_sslcontext: true
+  type: cpython
+  version:
+    major: 3
+    micro: 4
+    minor: 10
+    releaselevel: final
+    serial: 0
+  version_info:
+  - 3
+  - 10
+  - 4
+  - final
+  - 0
+ansible_python_version: 3.10.4
+ansible_real_group_id: 0
+ansible_real_user_id: 0
+ansible_selinux:
+  status: disabled
+ansible_selinux_python_present: true
+ansible_service_mgr: systemd
+ansible_ssh_host_key_dsa_public: AAAAB3NzaC1kc3MAAACBALPkc7328pb+QoLzGL+oZ4YWYVR4un7KKEkLRPfMJNz7AY7/m6DQP3NausmRdukxWVNfT2BeWo5+Hh1a6gOcIKCVG/un40IO2+TUNU5sQSYImwbo7+dSR4lqKJ7L3KRbkhdFf4g9A1aTpJWSxcUpI5ShMvIuDWALelh5SaH3z+QJAAAAFQDQwVym+Q8KDhl8gN83Oq0RdvmvtQAAAIByMZiLx37VOgk2nU3o6j4tCyRZd5e47oOkTrkwz3d5GN4BP/L8LhdBpEQEBB2IBVnKKGAZ3z8GHY6yblOTVn/zWlQfRppT8+lY3py5TGQuxeppbueCL/XySXrK5r2NwN14FWsX0pNoQtZ6CtwVa/tRHbhsvFA8M28SZ1S9hhvK2QAAAIAN1eQoHVp6dDY1G+OuEuE+Gy0VBLcQjp4nZBbXGstJdjTFiGsFJt45+FfYfsl13RzJqN7pjgqOKbSqLEhaJrQRnHnKnVrCHrHEYUpFTZgzIB0GiLyzgs/b37bhOHN4x8x6tjpMIJjnGcLdxAKBbclCa1Q0HVu9znTKCRxDPOq8VA==
+ansible_ssh_host_key_dsa_public_keytype: ssh-dss
+ansible_ssh_host_key_ecdsa_public: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHUivbillJnHUmDFUKWJlVwEfPzW6lCxw2+nPdXozkfsEYL/QzdYVcLdkkMf6GKPd69J618glMD8IpkmWtXYF1I=
+ansible_ssh_host_key_ecdsa_public_keytype: ecdsa-sha2-nistp256
+ansible_ssh_host_key_ed25519_public: AAAAC3NzaC1lZDI1NTE5AAAAINFWxw+rv6Wyu/j6AiyoSi8txiJfMOUilv1JaMfr7L5v
+ansible_ssh_host_key_ed25519_public_keytype: ssh-ed25519
+ansible_ssh_host_key_rsa_public: AAAAB3NzaC1yc2EAAAADAQABAAABgQC5waV+OMbOFwfr9+pMxPZW/QyezsIcIQ32dbCisnUxm7L7geDMys5O1M9CS1meWFKyua3s2Ib95CTir9NkAN/MmhEmuJUXtAgSWHZzFrWTYGU5lPQTLMUg5378zrkhhqd3qrX0N6DXwXvx/HV/08h9olitN9nwzCCGJ+JqhwKSMvA8i5KaKsqneyTjJirM7R4dWKoHQKe0haHSTgjbs3TApoLHgH4zqjIud28TniwwLJwvveKS0HDj+d9bQEc3Y/oCBeOOcG33OFrgIg02QpFx3ZuJQcUCefHGx0vpFwExDFjacU+q/FM1wXzG2xIF2Ds0mhzMI2/XXhtexWsxypH5rbu/QV7g7hVydSu7rIEFoY8FBq0KGxx7qWlA+id2StqZwU6K5giAFdvlpHBkDvgowTNbDCz+YmhSMtcoz338vi2d50zb+3H5I5nJV6szggi7wp9X1j6rb4XRnhkuYIIAazzN3omyXeuqX7VCQ2m4gvTT2V4Z4Iv67vHT/Cp4b+M=
+ansible_ssh_host_key_rsa_public_keytype: ssh-rsa
+ansible_swapfree_mb: 0
+ansible_swaptotal_mb: 0
+ansible_system: Linux
+ansible_system_capabilities: []
+ansible_system_capabilities_enforced: 'False'
+ansible_system_vendor: DigitalOcean
+ansible_uptime_seconds: 209262
+ansible_user_dir: /root
+ansible_user_gecos: root
+ansible_user_gid: 0
+ansible_user_id: root
+ansible_user_shell: /bin/bash
+ansible_user_uid: 0
+ansible_userspace_architecture: x86_64
+ansible_userspace_bits: '64'
+ansible_virtualization_role: guest
+ansible_virtualization_tech_guest:
+- kvm
+ansible_virtualization_tech_host:
+- kvm
+ansible_virtualization_type: kvm
+discovered_interpreter_python: /usr/bin/python3
+gather_subset:
+- all
+module_setup: true
