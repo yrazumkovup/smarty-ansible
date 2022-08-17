@@ -1,9 +1,9 @@
 version: '3.7'
 
 services:
-  {{ squid.app_name }}:
-    image: gdrg/squid:1.0.0
-    network_mode: host
+ # {{ squid.app_name }}:
+ #   image: gdrg/squid:1.0.0
+ #   network_mode: host
 
   {{ dnsmasq.app_name }}:
     image: {{ dnsmasq.image }}
@@ -15,9 +15,9 @@ services:
     image: {{ ipsec.image }}
     # network_mode: host
     environment:
-      VPN_IPSEC_PSK: 'smartydns'
-      VPN_USER_CREDENTIAL_LIST: '[{"login":"smartUser1","password":"smartpass1"},{"login":"smartUser2","password":"smartPass2"}]'
-      VPN_PUBLIC_IP: 167.71.62.47
+      VPN_IPSEC_PSK: "{{ ipsec.psk }}"
+      VPN_USER_CREDENTIAL_LIST: "{{ ipsec.userlist }}"
+      VPN_PUBLIC_IP: {{ ipsec.public_ip }}
     ports:
       - "500:500/udp"
       - "4500:4500/udp"

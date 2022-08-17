@@ -26,6 +26,24 @@
     project_src: "{{ smarty_compose_filename | dirname}}"
     state: present
     pull: yes
+    stopped: yes
+
+- name: Disable systemd-resolved service
+  systemd:
+    state: stopped
+    daemon_reload: no
+    name: systemd-resolved
+
+- name: start services via docker-compose
+  community.docker.docker_compose:
+    project_src: "{{ smarty_compose_filename | dirname}}"
+    state: present
+    build: no
+
+- name: set dnsmasq as default nameserver
+  lineinfile:
+    path: /etc/resolv.conf
+    line: 'nameserver 127.0.0.1'
 
 - name: Prune unused docker objects
   docker_prune:
