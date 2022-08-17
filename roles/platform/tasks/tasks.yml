@@ -31,7 +31,6 @@
 - name: Disable systemd-resolved service
   systemd:
     state: stopped
-    daemon_reload: no
     name: systemd-resolved
 
 - name: start services via docker-compose
