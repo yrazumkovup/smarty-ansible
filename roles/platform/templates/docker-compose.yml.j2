@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   {{ squid.app_name }}:
-   image: gdrg/squid:1.0.0
+   image: {{ squid.image }}
     network_mode: host
 
   {{ dnsmasq.app_name }}:
