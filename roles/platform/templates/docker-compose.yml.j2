@@ -15,9 +15,9 @@ services:
     image: {{ ipsec.image }}
     # network_mode: host
     environment:
-      VPN_IPSEC_PSK: "{{ ipsec.psk }}"
+      VPN_IPSEC_PSK:            "{{ ipsec.psk }}"
       VPN_USER_CREDENTIAL_LIST: "{{ ipsec.userlist }}"
-      VPN_PUBLIC_IP: {{ ipsec.public_ip }}
+      VPN_PUBLIC_IP:            "{{ ipsec.public_ip }}"
     ports:
       - "500:500/udp"
       - "4500:4500/udp"
